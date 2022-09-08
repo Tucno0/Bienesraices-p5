@@ -1,0 +1,13 @@
+.boton-amarillo {
+    @include boton($amarillo, block);
+}
+
+.boton-verde {
+    @include boton($verde, inline-block);
+}
+
+.alinear-derecha {
+    display: flex;
+    justify-content: flex-end;
+    
+}
